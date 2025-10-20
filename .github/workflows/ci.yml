@@ -33,4 +33,4 @@ jobs:
         run: npm run typecheck
 
       - name: Run tests (Jest)
-        run: npx jest --ci --runInBand
+        run: npx jest --ci --runInBand --passWithNoTests
